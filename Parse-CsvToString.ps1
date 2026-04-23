@@ -30,6 +30,24 @@ param (
 )
 
 # =============================================================================
+# ENCODING SETUP
+#
+# Force UTF-8 end-to-end so characters like en dashes (–) and em dashes (—)
+# survive both the file read and the string output without corruption.
+#
+#   $OutputEncoding          — used by PowerShell when piping to external
+#                              processes or Out-File without -Encoding.
+#   [Console]::OutputEncoding — used by the .NET runtime when writing to
+#                              stdout directly (Write-Output, etc.).
+#
+# Both must be set; setting only one still causes corruption in some hosts.
+# BOM-less UTF-8 (new UTF8Encoding($false)) avoids prepending a byte-order
+# mark that can break downstream consumers.
+# =============================================================================
+$OutputEncoding           = [System.Text.UTF8Encoding]::new($false)
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+
+# =============================================================================
 # FUNCTION: Parse-CsvContent
 #
 # Parses the entire CSV file content (as a single string) into a list of rows,
