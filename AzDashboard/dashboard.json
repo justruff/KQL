@@ -1,0 +1,225 @@
+{
+  "version": "Notebook/1.0",
+  "name": "DashboardPoc",
+  "items": [  {
+    "type": 3,
+    "name": "CrowdStrike1NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "CrowdStrike1TITLE",
+      "query": "CrowdStrike1QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "visualization": "piechart",
+      "timeContext": {
+        "durationMs": 86400000
+      }
+    },
+    "sytleSettings": {
+      "showBorder": "true",
+      "borderStyle": "dark thick shadow rounded",
+      "w": "24",
+      "h": "10",
+      "x": "0",
+      "y": "0"
+    }
+  },
+  {
+    "type": 3,
+    "name": "CrowdStrike2NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "CrowdStrike2TITLE",
+      "query": "CrowdStrike2QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  },
+  {
+    "type": 3,
+    "name": "CrowdStrike3NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "CrowdStrike3TITLE",
+      "query": "CrowdStrike3QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  },  {
+    "type": 3,
+    "name": "SecurityLogs1NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "SecurityLogs1TITLE",
+      "query": "SecurityLogs1QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "visualization": "piechart",
+      "timeContext": {
+        "durationMs": 86400000
+      }
+    },
+    "sytleSettings": {
+      "showBorder": "true",
+      "borderStyle": "dark thick shadow rounded",
+      "w": "24",
+      "h": "10",
+      "x": "0",
+      "y": "0"
+    }
+  },
+  {
+    "type": 3,
+    "name": "SecurityLogs2NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "SecurityLogs2TITLE",
+      "query": "SecurityLogs2QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  },
+  {
+    "type": 3,
+    "name": "SecurityLogs3NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "SecurityLogs3TITLE",
+      "query": "SecurityLogs3QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  },  {
+    "type": 3,
+    "name": "LoginAttempts1NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "LoginAttempts1TITLE",
+      "query": "LoginAttempts1QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "visualization": "piechart",
+      "timeContext": {
+        "durationMs": 86400000
+      }
+    },
+    "sytleSettings": {
+      "showBorder": "true",
+      "borderStyle": "dark thick shadow rounded",
+      "w": "24",
+      "h": "10",
+      "x": "0",
+      "y": "0"
+    }
+  },
+  {
+    "type": 3,
+    "name": "LoginAttempts2NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "LoginAttempts2TITLE",
+      "query": "LoginAttempts2QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  },
+  {
+    "type": 3,
+    "name": "LoginAttempts3NAME",
+    "content": {
+      "version": "KqlItem/1.0",
+      "title": "LoginAttempts3TITLE",
+      "query": "LoginAttempts3QUERY",
+      "size": 0,
+      "queryType": 0,
+      "resourceType": "microsoft.operationalinsights/workspaces",
+      "crossComponentResources": "[]",
+      "timeContext": {
+        "durationMs": 86400000
+      },
+      "sytleSettings": {
+        "showBorder": "true",
+        "borderStyle": "dark thick shadow rounded",
+        "w": "24",
+        "h": "10",
+        "x": "0",
+        "y": "0"
+      }
+    }
+  }],
+  "layout": {"type": "grid"},
+  "styleSettings": {"background": "lighter"},
+  "fallbackResourceIds": ["AZ_ID"],
+  "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
+}
