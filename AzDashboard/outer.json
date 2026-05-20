@@ -1,9 +1,0 @@
-{
-  "version": "Notebook/1.0",
-  "name": "WORKBOOK_NAME",
-  "items": [],
-  "layout": {"type": "grid"},
-  "styleSettings": {"background": "lighter"},
-  "fallbackResourceIds": ["RESOURCE_NAME"],
-  "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
-}
