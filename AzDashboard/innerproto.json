@@ -19,7 +19,7 @@
     "content": {
       "version": "KqlItem/1.0",
       "title": "TBLNAME Data Category",
-      "query": "",
+      "query": "TBLNAMEQ1",
       "size": 0,
       "queryType": 0,
       "resourceType": "microsoft.operationalinsights/workspaces",
@@ -43,7 +43,7 @@
     "content": {
       "version": "KqlItem/1.0",
       "title": "TBLNAME Pie Chart",
-      "query": "",
+      "query": "TBLNAMEQ2",
       "size": 0,
       "queryType": 0,
       "resourceType": "microsoft.operationalinsights/workspaces",
@@ -68,7 +68,7 @@
     "content": {
       "version": "KqlItem/1.0",
       "title": "TBLNAME Missing Assets",
-      "query": "",
+      "query": "TBLNAMEQ3",
       "size": 0,
       "queryType": 0,
       "resourceType": "microsoft.operationalinsights/workspaces",
