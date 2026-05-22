@@ -11,6 +11,7 @@
 
 # Display name embedded in the generated dashboard ARM template
 $WORKBOOK_NAME = "DashboardMVP"
-
+# Display project title embedded in the generated dashboard ARM template
+$PROJECT_TITLE = "ProjectID"
 # Azure resource identifier used in the generated dashboard ARM template
 $RESOURCE_NAME = "AZ_ID"

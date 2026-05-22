@@ -3,15 +3,14 @@
     "name": "TBLNAMETEXT",
     "content": {
       "json": "## Table: TBLNAME"
-      }
-   },
-  "sytleSettings": {
-    "showBorder": "true",
-    "borderStyle": "dark thick shadow rounded",
-    "w": 24,
-    "h": 10,
-    "x": 0,
-    "y": 0  
+    },
+    "sytleSettings": {
+      "showBorder": "true",
+      "borderStyle": "dark thick shadow rounded",
+      "w": 24,
+      "h": 10,
+      "x": 0,
+      "y": 0  
   },
   {
     "type": 3,
